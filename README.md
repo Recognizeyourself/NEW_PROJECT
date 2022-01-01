@@ -1,4 +1,4 @@
-#  Phony Bulletin Revealer
+#  Fake News Detection 
 
 In this project, we have used various natural language processing techniques and machine learning algorithms to classifty fake news articles using sci-kit libraries from python. 
 
@@ -107,7 +107,7 @@ A step by step series of examples that tell you have to get a development env ru
 
 1. The first step would be to clone this repo in a folder in your local machine. To do that you need to run following command in command prompt or in git bash
 ```
-$ git clone https://github.com/GouravKaushal/Phony-Bulletin-Revealer.git
+$ git clone https://github.com/Yash-verma18/Fake-News-Detection-ML.git
 ```
 
 2. This will copy all the data source file, program files and model into your machine.
@@ -134,12 +134,12 @@ $ git clone https://github.com/GouravKaushal/Phony-Bulletin-Revealer.git
     - Locate ```python.exe``` in your machine. you can search this in window explorer search bar. 
     - Once you locate the ```python.exe``` path, you need to write whole path of it and then entire path of project folder with ```prediction.py``` at the end. For example if your ```python.exe``` is located at ```c:/Python36/python.exe``` and project folder is at ```c:/users/user_name/desktop/fake_news_detection/```, then your command to run program will be as below:
     ```
-    C:\Python36\python.exe E:\Major_Project\Phony_Bulletin_Revealer\Fake_News_Detection\prediction.py
+    C:\Python36\python.exe E:\Major_Project\Fake_news_\Fake_News_Detection\prediction.py
     ```
     - After hitting the enter, the terminal will initiate the server and local IP address is displyed on the screen for example "http://127.0.0.1:5000/" .
     - User can check status of local server by entering that IP address in Chrome Browser .
-    - The Phony Bulletin Revealer's chrome extension need to integrated with the Chrome Browser for this user need to open chrome browser and go to settings options by clicking the 3 Dot button located in top right corner and then click on  the settings ,in the settings user need to click on " Extensions " option located in left menu.   
-    - After clicking "Extensions" option user need to click on "Load unpacked " option in top left corner ,this will open a new window in which user have to navigate to the project folder where manifest.json file is located for example " E:\Major_Project\Phony_Bulletin_Revealer " and then select the folder this will integrate the extension in chrome
+    - The Fake News Detection's chrome extension need to integrated with the Chrome Browser for this user need to open chrome browser and go to settings options by clicking the 3 Dot button located in top right corner and then click on  the settings ,in the settings user need to click on " Extensions " option located in left menu.   
+    - After clicking "Extensions" option user need to click on "Load unpacked " option in top left corner ,this will open a new window in which user have to navigate to the project folder where manifest.json file is located for example " E:\Major_Project\Fake_News_Detection " and then select the folder this will integrate the extension in chrome
     - After integrating the extension user can use it by surfing any website which contains news , to verify a news user need to select the text from web page and click on the extension icon , this will calculate the probabilty of news by machine learning and will display the pop up on showing the percentage of news .
 
 5.  If you have chosen to install python (and already setup PATH variable for ```python.exe```) then follow instructions:
@@ -153,7 +153,7 @@ $ git clone https://github.com/GouravKaushal/Phony-Bulletin-Revealer.git
     ```
     - After hitting the enter, the terminal will initiate the server and local IP address is displyed on the screen for example "http://127.0.0.1:5000/" .
     - User can check status of local server by entering that IP address in Chrome Browser .
-    - The Phony Bulletin Revealer's chrome extension need to integrated with the Chrome Browser for this user need to open chrome browser and go to settings options by clicking the 3 Dot button located in top right corner and then click on  the settings ,in the settings user need to click on " Extensions " option located in left menu.   
-    - After clicking "Extensions" option user need to click on "Load unpacked " option in top left corner ,this will open a new window in which user have to navigate to the project folder where manifest.json file is located for example " E:\Major_Project\Phony_Bulletin_Revealer " and then select the folder this will integrate the extension in chrome
+    - The Fake News Detection's chrome extension need to integrated with the Chrome Browser for this user need to open chrome browser and go to settings options by clicking the 3 Dot button located in top right corner and then click on  the settings ,in the settings user need to click on " Extensions " option located in left menu.   
+    - After clicking "Extensions" option user need to click on "Load unpacked " option in top left corner ,this will open a new window in which user have to navigate to the project folder where manifest.json file is located for example " E:\Major_Project\Fake News Detection's " and then select the folder this will integrate the extension in chrome
     - After integrating the extension user can use it by surfing any website which contains news , to verify a news user need to select the text from web page and click on the extension icon , this will calculate the probabilty of news by machine learning and will display the pop up on showing the percentage of news .
 
